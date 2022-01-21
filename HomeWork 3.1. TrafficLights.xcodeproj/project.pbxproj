@@ -56,7 +56,7 @@
 				8C6580242799F5B8003AA142 /* HomeWork_3_1__TrafficLightsApp.swift */,
 				8C6580262799F5B8003AA142 /* ContentView.swift */,
 				8CD6A395279AEF61004845C8 /* ColorsView */,
-				8C6580282799F5BF003AA142 /* Assets.xcassets */,
+				8CC60A98279AF03500718D02 /* Assets */,
 				8C65802A2799F5BF003AA142 /* Preview Content */,
 			);
 			path = "HomeWork 3.1. TrafficLights";
@@ -68,6 +68,14 @@
 				8C65802B2799F5BF003AA142 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CC60A98279AF03500718D02 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8C6580282799F5BF003AA142 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		8CD6A395279AEF61004845C8 /* ColorsView */ = {
