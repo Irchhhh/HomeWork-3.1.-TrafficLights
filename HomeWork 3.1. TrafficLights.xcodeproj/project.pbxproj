@@ -11,6 +11,7 @@
 		8C6580272799F5B8003AA142 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6580262799F5B8003AA142 /* ContentView.swift */; };
 		8C6580292799F5BF003AA142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C6580282799F5BF003AA142 /* Assets.xcassets */; };
 		8C65802C2799F5BF003AA142 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C65802B2799F5BF003AA142 /* Preview Assets.xcassets */; };
+		8C6580332799F5E5003AA142 /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6580322799F5E5003AA142 /* ColorsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8C6580262799F5B8003AA142 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8C6580282799F5BF003AA142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C65802B2799F5BF003AA142 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C6580322799F5E5003AA142 /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				8C6580242799F5B8003AA142 /* HomeWork_3_1__TrafficLightsApp.swift */,
 				8C6580262799F5B8003AA142 /* ContentView.swift */,
+				8CD6A395279AEF61004845C8 /* ColorsView */,
 				8C6580282799F5BF003AA142 /* Assets.xcassets */,
 				8C65802A2799F5BF003AA142 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				8C65802B2799F5BF003AA142 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CD6A395279AEF61004845C8 /* ColorsView */ = {
+			isa = PBXGroup;
+			children = (
+				8C6580322799F5E5003AA142 /* ColorsView.swift */,
+			);
+			path = ColorsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				8C6580272799F5B8003AA142 /* ContentView.swift in Sources */,
 				8C6580252799F5B8003AA142 /* HomeWork_3_1__TrafficLightsApp.swift in Sources */,
+				8C6580332799F5E5003AA142 /* ColorsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

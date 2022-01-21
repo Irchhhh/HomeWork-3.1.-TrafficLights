@@ -1,5 +1,5 @@
 //
-//  RedColorView.swift
+//  ColorsView.swift
 //  HomeWork 3.1. TrafficLights
 //
 //  Created by Ирина on 20.01.2022.
@@ -13,8 +13,6 @@ struct RedColorView: View {
     
     var body: some View {
         ZStack {
-            Color.black
-                .edgesIgnoringSafeArea(.all)
             redColorView
                 .padding(.bottom, 350)
         }
@@ -29,6 +27,7 @@ struct RedColorView: View {
         }
     }
 }
+
 //MARK: - Yellow Color
 struct RedColorView_Previews: PreviewProvider {
     static var previews: some View {
@@ -56,7 +55,6 @@ struct YellowColorView: View {
         }
     }
 }
-
 struct YellowColorView_Previews: PreviewProvider {
     static var previews: some View {
         YellowColorView(opacity: 0.3)
@@ -81,7 +79,6 @@ struct GreenColorView: View {
             .padding(.bottom, -90)
     }
 }
-
 struct GreenColorView_Previews: PreviewProvider {
     static var previews: some View {
         GreenColorView(opacity: 0.3)
